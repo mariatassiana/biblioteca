@@ -29,3 +29,43 @@ header nav ul li{
     padding: 0 100px;
 
 }
+
+
+.container {
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    flex-grow:unset;
+    justify-content: center;
+    align-items: center;
+}
+
+.container form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.container form label {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.login {
+    width: 200px;
+    padding: 10px;
+    height: 25px;
+    border-radius: 5px;
+    border: none;
+    background-color: chartreuse;
+}
+
+#enter_login {
+    width: 200px;
+    border-radius: 5px;
+    border:none;
+    background-color: blue;
+}
