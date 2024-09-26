@@ -47,23 +47,26 @@ header nav ul li{
 
 .container form{
     display: flex;
+    position:static;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-top: 20px;
-    background-color: wheat;
+    background-color: rgb(245, 222, 179, 0.7);
     width: 30%;
-    height: 65vh;
+    border-radius: 20px;
+    padding: 40px;
+    
 }
 
 .container form label {
     display: flex;
     flex-direction: column;
     margin: 10px;
-    background-color: wheat;
+    background-color: rgb(245, 222, 179, 0.3);;
 }
 
-.login {
+.input-text {
     width: 200px;
     padding: 10px;
     height: 25px;
