@@ -11,6 +11,7 @@
 <body>
   <header>
     <div class = "cabecalho">
+      <img src="img/logo_principal.png" alt="logo" id="logo">
         <nav>
           <ul>
             <li><a href="explorar.html">Explorar</a></li>
@@ -25,19 +26,23 @@
   <main>
     <div class="container">
       <form action="">
-        <label for="email" class="form-label">
+        <label for="name">
+          Nome Completo:
+          <input type="text" id="name">
+        </label>
+        <label for="cpf">
+          CPF:
+          <input type="text" name="cpf" id="cpf">
+        </label>
+        <label for="email">
           E-mail:
-          <input type="email" id="email" placeholder="exemplo@email.com" class="login form-control">
+          <input type="email" name="email" id="email">
         </label>
-  
-        <label for="password" class="form-label">
+        <label for="senha">
           Senha:
-          <input type="password" id="password" placeholder="Sua senha" class="login form-control">
+          <input type="password" name="senha" id="senha" min="8">
         </label>
-
-        <a>Registre-se</a>
-
-        <button id="enter_login" type="submit" class="btn btn-primary">Entrar</button>
+        <button type="submit">REGISTRAR</button>
       </form>
     </div>
   </main>
