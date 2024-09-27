@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: rgb(205, 245, 240);
+    background-color: rgb(212, 243, 244);
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -84,4 +84,51 @@ header nav ul li{
 
 #logo {
     width: 130px;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.card{
+  margin: 10px;
+  background-color: rgb(255, 255, 255); 
+  width: 250px;
+  height: 550px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  text-align: center;
+  margin:26px;
+  
+}
+
+.card > h1{
+    font-size:25px;
+    padding-top: 10px;
+}
+
+.card > p{
+    font-size: 17px;
+    padding: 20px 20px;
+
+}
+
+.card > img{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 350px;
+    
+}
+
+.btn{
+    font-size: 17px;
+    padding: 10px 50px;
+    border: none;
+    background-color: rgb(104, 254, 109);
+    border-radius: 10px;
+    color: #fff;
+    font-weight: 500;
 }
