@@ -148,6 +148,7 @@ header nav ul li{
     font-weight: 500;
 }
 
+
 .container-detalhes {
     display: flex;
     width: 80%;
@@ -190,17 +191,23 @@ header nav ul li{
     background-color: #fff;
 }
 
-.content h5, p {
+.content h5, p, i {
     background-color: #fff;
 }
 
-.color, h1{
+#genere{
+    font-size: 14px;
+}
+
+.color{
     background-color: #fff;
 }
 
-.color {
+.detalhes_do_livro {
     padding-left: 20px;
 }
+
+
 
 .content_left img {
     width: 180px;
