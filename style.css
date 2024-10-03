@@ -52,7 +52,7 @@ header nav ul li{
     justify-content: center;
     align-items: center;
     margin-top: 20px;
-    background-color: rgb(245, 222, 179, 0.7);
+    background-color: rgba(75, 140, 237, 0.7);
     width: 30%;
     border-radius: 20px;
     padding: 40px;
